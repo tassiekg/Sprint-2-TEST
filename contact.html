@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Oxford Food Guide</title>
+        <!-- Link Materialize css here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- add Materialize navbar here -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Oxford Food Guide</a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+   
+    <!-- Contact Us Form -->
+    <h1>Contact Us</h1>
+
+    <p>
+        Have a question, suggestion, or restaurant recommendation?
+        We would love to hear from you! Fill out the form below
+        to get in touch with our team.
+    </p>
+
+    <form action="https://formspree.io/f/mzeekyar" method="POST">
+
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <!-- Drop down -->
+        <label for="hear-about">How did you hear about our site?</label>
+
+<select name="reference" id="hear-about">
+    <option value="" disabled selected>Choose an option</option>
+    <option value="facebook">Facebook</option>
+    <option value="instagram">Instagram</option>
+    <option value="other">Other</option>
+</select>
+
+  <!-- Materilaize button -->
+<p class="grey-text text-darken-1" style="font-size: .75rem;">Do you like our site?</p>
+
+<label>
+    <input type="radio" name="rating" value="yes">
+    <span>Yes</span>
+</label>
+
+<label>
+    <input type="radio" name="rating" value="no">
+    <span>No</span>
+</label>
+
+        <!-- Comments -->
+        <p>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea rows="4" cols="40" id="comments" name="comments"></textarea>
+        </p>
+
+        <!-- Submit button with Materilize CSS-->
+    <button class="btn waves-effect waves-light" type="submit">
+    Submit
+</button>
+
+    </form>
+
+
+    <!-- Find Us -->
+    <h2>Explore Oxford</h2>
+
+    <p>
+        Our Oxford Food Guide highlights restaurants and food spots
+        throughout Oxford, Ohio. Use the map below to explore the
+        community and find local places to eat.
+    </p>
+
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51176.51435412937!2d-84.78468356066205!3d39.5080212793575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0e27bb9233%3A0x694f077b0f7aafcc!2sOxford%2C%20OH%2045056!5e1!3m2!1sen!2sus!4v1789571002627!5m2!1sen!2sus"
+    title="Map of Oxford, Ohio"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Oxford Food Guide</p>
+    </footer>
+
+<!-- add Materialize javascript here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        M.FormSelect.init(elems);
+    });
+</script>
+
+
+</body>
+</html>

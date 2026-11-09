@@ -1,0 +1,249 @@
+/* =========================
+   Oxford Food Guide
+   Main CSS
+   ========================= */
+
+/* Whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f2;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+/* =========================
+   Navigation Materialize
+   ========================= */
+
+
+
+
+
+nav {
+    background-color: #a6192e;
+    height: 90px;
+    line-height: 90px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.brand-logo {
+    font-weight: bold;
+}
+
+nav ul a {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 15px;
+}
+
+nav ul a:hover {
+    background-color: #861326;
+}
+
+
+
+
+
+
+/* =========================
+   Headings
+   ========================= */
+
+h1 {
+    color: #a6192e;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #a6192e;
+    font-size: 28px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #d9a441;
+}
+
+h3 {
+    color: #8c1828;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   Paragraphs
+   ========================= */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   Links
+   ========================= */
+
+a {
+    color: #a6192e;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d9a441;
+}
+
+
+/* =========================
+   Restaurant Images
+   ========================= */
+
+.restaurant-image {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid #a6192e;
+}
+
+
+/* =========================
+   Team Photos
+   ========================= */
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #a6192e;
+}
+
+
+/* =========================
+   Videos and Maps
+   ========================= */
+
+iframe {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+
+/* =========================
+   Forms
+   ========================= */
+
+form {
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #a6192e;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #a6192e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d9a441;
+}
+
+
+/* 
+   Footer*/
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 3px solid #a6192e;
+}
+
+footer p {
+    color: #777;
+    font-size: 14px;
+}
+
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    background-color: #a6192e;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.faq-answer {
+    background-color: #fff8f2;
+    padding: 15px;
+    margin: 0;
+}
+
+/*  Materialize Submit Button */
+.btn {
+    background-color: #a6192e;
+}
+
+.btn:hover {
+    background-color: #861326;
+}
+
+/* Change radio button color */
+[type="radio"]:checked + span:after {
+    background-color: #a6192e;
+    border: 2px solid #a6192e;
+}
+
+/* Dropdown colors */
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #a6192e;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.selected {
+    background-color: #fff8f2;
+}
+
+/* Dropdown text color */
+.select-dropdown {
+    color: #a6192e;
+}
+
+/* Radio button label color */
+[type="radio"] + span {
+    color: #333 !important;
+}

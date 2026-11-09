@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | Oxford Food Guide</title>
+        <!-- Link Materialize css here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- add Materialize navbar here -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Oxford Food Guide</a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Frequently Asked Questions</h1>
+
+    <!-- FAQs Section but with Materialize Collapsible FAQ Component -->
+    <ul class="collapsible">
+
+        <li>
+            <div class="collapsible-header">
+                Q: What is the best spot for dinner with friends uptown?
+            </div>
+            <div class="collapsible-body">
+                <span>A: Mac & Joe's or Steinkeller.</span>
+            </div>
+        </li>
+
+        <li>
+            <div class="collapsible-header">
+                Q: What is the best late-night spot uptown?
+            </div>
+            <div class="collapsible-body">
+                <span>A: Bagel & Deli and Bruno's Pizza.</span>
+            </div>
+        </li>
+
+        <li>
+            <div class="collapsible-header">
+                Q: What is the best breakfast spot uptown?
+            </div>
+            <div class="collapsible-body">
+                <span>A: TOUS les JOURS Cafe and Patterson's Cafe.</span>
+            </div>
+        </li>
+
+        <li>
+            <div class="collapsible-header">
+                Q: What are the Oxford Food Guide team's favorite restaurants?
+            </div>
+            <div class="collapsible-body">
+                A:
+                <ul>
+                    <li>Casey: Bagel & Deli</li>
+                    <li>Kaitlyn: TOUS les JOURS Cafe</li>
+                    <li>Myron: Paesano's Pasta House</li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <div class="collapsible-header">
+                Q: What are some good restaurants for students on a budget?
+            </div>
+            <div class="collapsible-body">
+                <span>A: Bagel & Deli, Mac & Joe's, Bruno's Pizza.</span>
+            </div>
+        </li>
+
+        <li>
+            <div class="collapsible-header">
+                Q: What types of international food can you find in Oxford?
+            </div>
+            <div class="collapsible-body">
+                <span>A: Asian, Indian, Latin American etc.; Phan Shin, Krishna, Cocina Latina, Saigon Ơi.</span>
+            </div>
+        </li>
+
+    </ul>
+
+    <!-- Contact Section -->
+    <h2>Still Have a Question?</h2>
+
+    <p>
+        Didn't find the answer you were looking for? Visit our
+        <a href="contact.html">Contact Us</a> page to send us a question,
+        suggestion, or restaurant recommendation.
+    </p>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Oxford Food Guide</p>
+    </footer>
+
+<!-- add Materialize javascript here -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Initialize materialize collapsible -->
+  <script>
+   $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+      
+      </script>
+</body>
+
+</html>

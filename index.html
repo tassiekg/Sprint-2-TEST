@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxford Food Guide</title>
+        <!-- Link Materialize css here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+    
+    <!-- add Materialize navbar here -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo ">Oxford Food Guide</a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Oxford Food Guide</h1>
+        <h3>Discover great places to eat in Oxford, Ohio!</h3>
+    </header>
+
+
+
+
+    <!-- Main Content -->
+    <main>
+
+       <!-- Oxford Image -->
+    <section> <br> <img src="Images/oxford.jpg" 
+    alt="https://en.wikipedia.org/wiki/Oxford,_Ohio#/media/ File:Oxford_ohio_main.jpg" width="800"> </section>
+
+
+        <!-- Welcome Section -->
+        <section>
+            <h2>Welcome to Oxford</h2>
+
+            <p>
+                Welcome to the Oxford Food Guide! Our website explores the
+                restaurants, cafes, bakeries, and other food spots found
+                throughout Oxford, Ohio.
+            </p>
+
+            <p>
+                Oxford is home to Miami University and has a food scene that
+                brings together students, local residents, and visitors.
+                Despite being a small community, Oxford offers a wide variety
+                of dining options and cuisines.
+            </p>
+
+            <p>
+                Whether you are looking for a quick meal between classes,
+                dinner with friends, a cup of coffee, or something new to try,
+                our guide can help you explore the local food scene.
+            </p>
+        </section>
+
+        
+
+       <!-- Materialize Slideshow -->
+<div class="slider">
+    <ul class="slides">
+        <li>
+            <img src="Images/dining.jpg" alt="https://miamioh.edu/global-initiatives/international-student-scholar-services/resources/life-in-oxford/dining-shopping.html">
+        </li>
+        <li>
+            <img src="Images/Bagelfood.jpg" alt="https://thesuitelifeoftravel.com/the-bagel-shop-and-deli-oxford-ohio/">
+        </li>
+        <li>
+            <img src="Images/Brickpeople.jpeg" alt="https://www.facebook.com/brickstreetbar/posts/btcmiami-vs-ou-330brick-after-partythats-a-saturday/1163847662409979/">
+        </li>
+        <li>
+            <img src="Images/Cocinafood.jpg" alt="https://cocinalatinaoxfordoh.com/">
+        </li>
+
+    </ul>
+</div>
+       
+       
+       
+       
+        <!-- Featured Food Spots -->
+        <section>
+            <h2>Featured Food Spots</h2>
+
+            <h3>Bagel &amp; Deli</h3>
+
+            <p>
+                A longtime Oxford favorite known for its creative steamed
+                bagel sandwiches.
+            </p>
+
+
+            <h3>Brick Street Bar &amp; Grill</h3>
+
+            <p>
+                An Oxford restaurant known for food, entertainment, and
+                a lively atmosphere.
+            </p>
+
+
+            <h3>Cocina Latina</h3>
+
+            <p>
+                A downtown Oxford restaurant featuring Latin American
+                flavors and dishes.
+            </p>
+
+            <p>
+                <a href="information.html">
+                    Explore More Oxford Restaurants →
+                </a>
+            </p>
+        </section>
+
+
+        <!-- Explore Section -->
+        <section>
+            <h2>Explore Our Guide</h2>
+
+            <p>
+                Want to learn more about Oxford's food scene? Visit our
+                Information page for more detailed information about local
+                restaurants, cuisines, and dining options.
+            </p>
+
+            <p>
+                Have a question or a restaurant recommendation?
+                Visit our Contact Us page to get in touch with our team.
+            </p>
+        </section>
+
+
+        <!-- Oxford Video -->
+        <section>
+            <h2>Explore Oxford</h2>
+
+            <p>
+                Take a look around Oxford, Ohio and get a feel for the community
+                surrounding Miami University. This video highlights the local
+                atmosphere and gives visitors a glimpse of what makes Oxford a
+                unique college town.
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pIZvS17QDqc?si=PwGPSFf__Hi7-2W2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Oxford Food Guide</p>
+    </footer>
+
+<!-- add javascript here -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<!-- initialize the materialize slideshow -->
+
+<script>
+    $(document).ready(function(){
+        $('.slider').slider({
+            indicators: true,
+            interval: 4000
+        });
+    });
+</script>
+
+</body>
+
+</html>
